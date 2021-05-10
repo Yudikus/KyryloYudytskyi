@@ -1,0 +1,14 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"    
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">  
+<url>    
+<loc>http://www.ішеу.com/videos/</loc>    
+<video:video>      
+<video:thumbnail_loc>http://www.ішеу.com/thumbs/video_1.jpg</video:thumbnail_loc>  
+<video:title>Название видео</video:title>      
+<video:description>Описание видео</video:description>     
+<video:content_loc>http://www.site.com/video123.flv</video:content_loc>  
+<video:player_loc allow_embed="yes" autoplay="ap=1"> http://www.site.com/videoplayer.swf?video=123</video:player_loc>     
+ <video:duration>600</video:duration>         
+      </video:video>  
+      </url>
+      </urlset>
