@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /author/*
+Disallow: /admin/
+Allow: /autoptimize/
+Sitemap: https://site.com/site_map.xml
+Sitemap: https://site.com/site_map_image.xml
+Sitemap: https://site.com/site_map_video.xml
+
+User-agent: Yandex
+Disallow: /author/*
+Disallow: /admin/
+Allow: /autoptimize/
+Host: https://site.com
+
