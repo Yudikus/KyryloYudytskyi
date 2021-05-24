@@ -1,0 +1,13 @@
+a{
+    font-family: 'roboto_condensedbold';
+    color: royalblue;
+}
+
+.main_menu ul.sub_menu li a:hover{
+    color: red;
+    font-size: 20px;
+}
+ ul.main_menu li a:hover{
+    color: yellow;
+    font-size: 30px;
+}
