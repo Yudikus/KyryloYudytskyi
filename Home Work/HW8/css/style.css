@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url("../images/unnamed.jpg") no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+.left_div h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.left_div p{
+    text-transform: lowercase;
+    text-indent: 20px;
+}
+
+.right_div, .left_div{
+  margin: 0;
+  float: left;
+  width: 50%;
+  color: red;
+}
+input{
+   width: 100%;
+}
