@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_div{
+    width: 800px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    width: auto ;
+    height: auto;
+}
+.image{
+    width: 300px;
+    display: inline-block;
+    margin: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.6);
+    overflow: hidden;
+}
+.image:hover .text_hidden{
+    display: block;
+    position: absolute;
+    left: 125px;
+    bottom: 50%;
+}
+
+.text_hidden{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+.second_div{
+    margin: 0 auto;
+    width: 300px;  
+    position: relative; 
+    padding: 20px 25px;
+}
+.second_div li::before{
+    content: "*";
+    position: absolute;
+    left: 0;
+    
+
+}
+/*
+.image-blog{
+    max-height: 252px;
+    overflow: hidden;
+   position: relative;
+}
+.image-blog:hover:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.6);
+    overflow: hidden;
+}
+.image-blog:hover .text_hidden{
+    display: block;
+    position: absolute;
+    left: 150px;
+    bottom: 50%;
+}
+.text_hidden{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}*/
