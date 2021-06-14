@@ -1,0 +1,82 @@
+h1{
+    padding: 10px;
+}
+
+.shadow{
+    text-shadow: 16px 29px grey;
+    }
+.shadow_blur{
+    text-shadow: 16px 29px 4px grey;
+}
+.two_shadow{
+    text-shadow: 7px 13px 6px red, -6px -10px 5px blue;
+}
+.shadow2{
+    color: #D1D1D1;
+    text-shadow: -1px -1px white, 1px 1px #333;
+}
+.shadow3{
+    color: #D1D1D1;
+    text-shadow: 1px 1px white, -1px -1px #333;
+}
+.shadow4{
+    color: #BBE;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.box_shadow{
+    margin: 40px;
+    width: 200px;
+    height: 100px;
+    background: white;
+    display: inline-block;
+    border: solid;
+}
+.box{
+    box-shadow: 17px 13px grey;
+}
+.box1{
+    box-shadow: 17px 13px 5px grey;
+}
+.box2{
+    box-shadow: inset 5px 5px 5px rgb(141 0 19), inset -5px -5px 5px rgb(43 0 145);
+    
+}
+.third_div{
+    width: 200px;
+    height: 100px;
+}
+.colordiv{
+    height: 200px;
+    background: linear-gradient(to right, red 10%, blue,white,red);
+}
+.colordiv2{
+    margin-top: 30px;
+    height: 200px;
+    background: linear-gradient( to bottom, rgb(255, 0, 0), rgb(255,255,255), rgb(255,0,0) );
+}
+
+.radial1{
+    background: radial-gradient(circle,white, blue 40%);
+    margin-bottom: 20px;
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+}
+.radial2{
+    background: radial-gradient(
+        closest-corner at 10% 15%,
+       white,
+      blue
+      );
+      background-position: top left;
+      margin-bottom: 20px;
+      height: 100px;
+      width: 200px;
+    }
+    .radial3{
+        background: radial-gradient(circle,black 2%,white 15%,green 20%);
+          background-position: top left;
+          margin-bottom: 20px;
+          height: 100px;
+        width: 200px;
+    }
